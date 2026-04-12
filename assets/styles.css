@@ -38,7 +38,7 @@ padding: 20px;
 }
 
 .services-list {
-list-style-type: disc;
+list-style: disc !important;
   padding-left: 20px;
 }
 
