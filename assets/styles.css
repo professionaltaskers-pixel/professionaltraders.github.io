@@ -157,6 +157,59 @@ grid-template-columns: 1fr;
   color: gold;
 }
 
+.services-container {
+  padding: 50px 20px;
+  background: #0f0f0f; /* dark background */
+  color: #fff;
+}
+
+.services-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #00c853; /* green accent */
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  display: flex;
+  align-items: center;
+  background: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 200, 83, 0.4);
+}
+
+.service-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.service-text {
+  padding: 15px;
+}
+
+.service-text h3 {
+  margin: 0;
+  color: #00e676;
+}
+
+.service-text p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
 .review {
   border-bottom: 1px solid #ccc;
   margin-top: 10px;
