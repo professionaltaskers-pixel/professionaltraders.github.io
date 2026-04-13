@@ -152,7 +152,7 @@ grid-template-columns: 1fr;
 .services-container {
   padding: 50px 20px;
   background: #ffffff; /* white background */
-  color: #fff;
+  color: #fffff;
 }
 
 .services-title {
@@ -183,7 +183,7 @@ grid-template-columns: 1fr;
 
 .service-card img {
   width: 100px;
-  height: 100px;
+  height: 120px;
   object-fit: cover;
 }
 
