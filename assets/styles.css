@@ -115,7 +115,7 @@ grid-template-columns: 1fr;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
@@ -151,7 +151,7 @@ grid-template-columns: 1fr;
 
 .services-container {
   padding: 50px 20px;
-  background: #0f0f0f; /* dark background */
+  background: #ffffff; /* white background */
   color: #fff;
 }
 
