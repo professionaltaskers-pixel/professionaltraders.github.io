@@ -37,14 +37,6 @@ section {
 padding: 20px;
 }
 
-.services-list {
-list-style: disc !important;
-  padding-left: 30px;
-}
-
-.services-list li {
-padding: 8px;
-}
 
 .gallery {
 display: grid;
