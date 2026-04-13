@@ -163,15 +163,15 @@ grid-template-columns: 1fr;
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
 }
 
 .service-card {
   display: flex;
   align-items: center;
   background: #1c1c1c;
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -183,7 +183,7 @@ grid-template-columns: 1fr;
 
 .service-card img {
   width: 100px;
-  height: 120px;
+  height: 150px;
   object-fit: cover;
 }
 
